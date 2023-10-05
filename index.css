@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /*background-color: cyan;*/
+    background-color: rgb(209, 202, 202);
+    /*👉 width: 200px;👈*/
+    font-family: 'Advent Pro', sans-serif;
+    height: 100vh;
+    transition: transform 0.10s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 40px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 23px;
+    padding: 10px 0;
+}
+
+.sidebar nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    /*background-color: lightblue;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(59, 39, 88);*/
+    height: 30vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.devPic img {
+    height: 50vh;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    margin: 0 3px;
+    padding: 9px 14px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: rgb(67, 67, 207);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: gray;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.name {
+    font-size: 55px;
+}
+
+.about {
+    font-size: 35px;
+    margin-top: 23px;
+}
+
+.moreAbout {
+    font-size: 29px;
+}
+
+.sidebar button {
+    margin: 0 px;
+    padding: 9px 14px;
+    border-radius: 10px;
+    color: cyan;
+    background-color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*Contact Form*/
+
+.contactForm h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0;
+}
+
+.contactForm {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 34px;
+    padding-top: 144px;
+}
+
+.contactForm Form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm Form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#emailHelp {
+    color: midnightblue;
+    font-size: 11px;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.form-label {
+    padding: 10px;
+}
+
+.btn-sm {
+    margin: 0 3px;
+    padding: 9px 14px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: rgb(67, 67, 207);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-sm:hover {
+    color: whitesmoke;
+    background-color: gray;
+}
+
+
+/*Blog Page*/
+
+.blogItem {
+    margin: 50px;
+}
+
+.blogcontainer h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: beige;
+}
+
+.blogItem h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: beige;
+    text-decoration: underline;
+}
+
+.blogItem p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+}
+
+.blogItem a {
+    padding: 12px;
+    color: black;
+    background-color: #e3edd8;
+}
+
+
+/*👉Introduction👈*/
+
+.infoIntroduction {
+    margin: 15px;
+    padding: 15px;
+}
+
+.infoIntroduction h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: beige; */
+}
+
+.infoIntroduction p {
+    margin: 10px;
+    padding: 10px;
+    background-color: #e3edd8;
+}
+
+.infoIntroduction h3 {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+
+
+/*Services.html*/
+
+.service h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.service p {
+    background-color: #e3edd8;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.sidebarGo {
+    transform: translate(-802px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 136px;
+    margin-top: -2px;
+    background-color: whitesmoke;
+}
+
+
+/*👉.devPic {
+    display: none;
+}👈*/
